@@ -93,6 +93,20 @@ class Course():
             if stud_id in self.students[i]:
                 print("Your grade is: ", self.grades[i])
 
+
+1. Create course #only course admin
+2. enrol student #only course admin
+3. unenrol student #only course admin
+4. Modify course #only course admin
+5. Modify student #only course admin
+6. Submit grades #only course admin
+7. delete student #System admin
+8. students enrol courses
+9. student see the courses enrolled
+
+
+
+
 adminC = Course()
 adminC.Admin_course("Edikan", "edi54")
 ad1 = input("enter admin name: ")
